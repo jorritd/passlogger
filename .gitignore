@@ -44,4 +44,5 @@ typings/
 node_modules/
 npm-debug.log
 host.key
+host.key.pub
 credentials.log

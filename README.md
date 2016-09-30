@@ -1,10 +1,10 @@
 # Passlogger
 
-Log usernames and passwords  for a sshd login attempts
+Log usernames and passwords for a sshd login attempts
 
 
 ```
-git clone passlogger
+git clone https://github.com/jorritd/passlogger.git
 ```
 
 ```
@@ -27,6 +27,8 @@ touch credentials.log
 ```
 Start the server on port 22 (default). (must be root)
 or change the port > 1024 and create a port forwarder in your firewall (see sshd.js)
+
+Run the script, optional via forever e.g. https://www.npmjs.com/package/forever
 ```
 node sshd.js
 ```
