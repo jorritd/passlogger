@@ -32,3 +32,8 @@ Run the script, optional via forever e.g. https://www.npmjs.com/package/forever
 ```
 node sshd.js
 ```
+To see realtime login attempts
+```
+tail -n 50 -f credentials.log
+```
+
