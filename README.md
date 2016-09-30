@@ -3,6 +3,8 @@
 Log usernames and passwords for a sshd login attempts
 
 
+Install (nodejs)[https://www.nodejs.org]
+
 ```
 git clone https://github.com/jorritd/passlogger.git
 ```
