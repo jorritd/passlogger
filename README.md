@@ -1,6 +1,6 @@
 # Passlogger
 
-Log usernames and passwords for a sshd login attempts
+Log ssh usernames and passwords for a fake sshd
 
 
 Install (nodejs)[https://www.nodejs.org]
